@@ -173,8 +173,18 @@ input { width: 100%; min-height: 50px; padding: .75rem 1rem; color: var(--ink); 
   .results { margin-top: 3rem; padding: 1.25rem; }
   .results-header { display: block; }
   .result-actions { margin-top: 1.2rem; align-items: stretch; }
-  th:nth-child(2), td:nth-child(2) { display: none; }
-  td, th { padding-inline: .55rem; }
+  .table-wrap { overflow: visible; border-top: 0; }
+  table, tbody { display: block; width: 100%; }
+  thead { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  #results-body { display: grid; gap: 1rem; }
+  #results-body tr { display: grid; gap: .9rem; width: 100%; padding: 1.1rem; background: #fbf6ea; border: 1px solid var(--line); border-radius: 10px; }
+  #results-body td { display: grid; gap: .2rem; min-width: 0; padding: 0; border: 0; overflow-wrap: anywhere; }
+  #results-body td::before { color: var(--muted); font-family: Arial, sans-serif; font-size: .72rem; font-weight: 700; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; }
+  #results-body td:nth-child(1)::before { content: 'Participante'; }
+  #results-body td:nth-child(2)::before { content: 'Le tocó regalar a'; }
+  #results-body td:nth-child(3)::before { content: none; }
+  .recipient-cell { font-size: 1.35rem; line-height: 1.15; }
+  .copy-button { width: 100%; min-height: 44px; margin-top: .1rem; }
   .identity-row { flex-direction: column; }
   .identity-row .button { width: 100%; }
   .open-button { max-width: none; }

@@ -193,7 +193,7 @@ La paleta combina papel cálido, tinta forestal, lacre borgoña y metal dorado; 
 
 El lienzo del organizador usa un contenedor máximo de 1240px y padding horizontal fluido. Su composición principal es una cuadrícula asimétrica de dos columnas: titular de cartel a la izquierda y hoja operativa de al menos 420px a la derecha, con un intervalo fluido entre 3rem y 8rem. La vista de participante conserva la misma dualidad entre mensaje y sobre dentro de un ancho máximo de 1180px.
 
-El ritmo parte de incrementos de 0.4–1rem para controles y de 1.5–3rem para contenido y escenas. A 850px ambas composiciones pasan a una columna, centran el relato y conservan los formularios alineados para lectura. A 580px se compactan paneles, acciones y tablas; los botones del flujo privado ocupan todo el ancho y la tabla oculta únicamente la columna de destinatario, manteniendo la acción de compartir.
+El ritmo parte de incrementos de 0.4–1rem para controles y de 1.5–3rem para contenido y escenas. A 850px ambas composiciones pasan a una columna, centran el relato y conservan los formularios alineados para lectura. A 580px se compactan paneles y acciones; cada fila de resultados se transforma en una tarjeta vertical que conserva participante, destinatario y botón de copia completamente visibles, mientras los botones del flujo privado ocupan todo el ancho.
 
 ## Elevation & Depth
 
